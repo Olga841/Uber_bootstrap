@@ -23,3 +23,56 @@ nav {
     border-right: 2px dotted black;
     padding-right: 40px;
 }
+
+/*SUBHEADER*/
+.subheader {
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+}
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_official {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.subheader .subheader_call {
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.subheader .subheader_phone {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.subheader .subheader_btn {
+    margin-top: 23px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
