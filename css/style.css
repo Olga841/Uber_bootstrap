@@ -1,9 +1,11 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
 header {
     position: relative;
 }
+
 nav {
     height: 53px;
     background: #212121;
@@ -94,6 +96,7 @@ nav {
     background: url("../img/main_bg.jpg") center center/cover no-repeat;
     padding: 160px 0px 160px 0px;
 }
+
 .promo .promo_header {
     font-style: normal;
     font-weight: 900;
@@ -102,6 +105,7 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .promo .promo_subheader {
     margin-top: 15px;
     font-style: normal;
@@ -111,6 +115,7 @@ nav {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .promo .promo_descr {
     margin-top: 16px;
     padding: 0 40px;
@@ -121,6 +126,7 @@ nav {
     text-align: center;
     color: #FFFFFF;
 }
+
 .promo .promo_btn {
     display: block;
     margin: 0 auto;
@@ -129,6 +135,78 @@ nav {
     height: 63px;
     font-size: 18px;
 }
+
+/*BENEFITS*/
+
+.benefits {
+    min-height: 849px;
+    background-color: #fff;
+    padding: 20px 0 0 0;
+}
+
+.benefits .benefits_btn {
+    display: block;
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.benefits .benefits_header {
+    margin: 0 auto;
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.benefits .benefits_wrapper {
+    padding: 20px 0 0 0;
+}
+.benefits .benefits_wrapper .benefits_item {
+    min-height: 170px;
+}
+.benefits .benefits_wrapper .benefits_item .benefits_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 116px;
+    height: 116px;
+    border-radius: 100%;
+    background-color: #1EACC7;
+}
+
+.benefits .benefits_wrapper .benefits_item .item_header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.benefits .benefits_wrapper .benefits_item .item_descr {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
+
+
+
+
+
+
 
 
 
