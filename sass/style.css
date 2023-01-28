@@ -126,10 +126,10 @@ nav {
 .benefits_wrapper {
   padding: 20px 0 0 0;
 }
-.benefits_wrapper_item {
+.benefits_wrapper .benefits_item {
   min-height: 170px;
 }
-.benefits_wrapper_item_round {
+.benefits_wrapper .benefits_item .benefits_round {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,12 +139,12 @@ nav {
   border-radius: 100%;
   background-color: #1EACC7;
 }
-.benefits_wrapper_item_header {
+.benefits_wrapper .benefits_item .item_header {
   font-weight: 400;
   font-size: 17px;
   color: #1EACC7;
 }
-.benefits_wrapper_item_descr {
+.benefits_wrapper .benefits_item .item_descr {
   font-weight: 300;
   font-size: 15px;
   line-height: 21px;
