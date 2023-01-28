@@ -19,12 +19,12 @@ nav {
   margin: 0;
   list-style: none;
 }
-.menu .menu_link {
+.menu_link {
   font-weight: 300;
   font-size: 15px;
   color: #FFFFFF;
 }
-.menu .menu_item {
+.menu_item {
   border-right: 2px dotted black;
   padding-right: 40px;
 }
@@ -35,26 +35,26 @@ nav {
   height: 87px;
   background: rgba(0, 0, 0, 0.6);
 }
-.subheader .subheader_logo {
+.subheader_logo {
   display: block;
   max-width: 100%;
   margin-top: 16px;
 }
-.subheader .subheader_official {
+.subheader_official {
   margin-top: 10px;
   font-weight: 100;
   font-size: 13px;
   color: #FFFFFF;
   opacity: 0.5;
 }
-.subheader .subheader_call {
+.subheader_call {
   margin-top: 23px;
   font-weight: 300;
   font-size: 12px;
   text-align: right;
   color: #FFFFFF;
 }
-.subheader .subheader_phone {
+.subheader_phone {
   display: block;
   font-weight: 400;
   font-size: 22px;
@@ -85,14 +85,14 @@ nav {
   background: url("../img/main_bg.jpg") center center/cover no-repeat;
   padding: 160px 0 160px 0;
 }
-.promo .promo_header {
+.promo_header {
   font-weight: 900;
   font-size: 60px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.promo .promo_subheader {
+.promo_subheader {
   margin-top: 15px;
   font-weight: 700;
   font-size: 36px;
@@ -100,7 +100,7 @@ nav {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.promo .promo_descr {
+.promo_descr {
   margin-top: 16px;
   padding: 0 40px;
   font-weight: 300;
@@ -109,7 +109,7 @@ nav {
   text-align: center;
   color: #FFFFFF;
 }
-.promo .promo_btn {
+.promo_btn {
   display: block;
   margin: 0 auto;
   margin-top: 115px;
@@ -123,13 +123,13 @@ nav {
   background-color: #fff;
   padding: 20px 0 0 0;
 }
-.benefits .benefits_wrapper {
+.benefits_wrapper {
   padding: 20px 0 0 0;
 }
-.benefits .benefits_wrapper .benefits_item {
+.benefits_wrapper_item {
   min-height: 170px;
 }
-.benefits .benefits_wrapper .benefits_item .benefits_round {
+.benefits_wrapper_item_round {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,12 +139,12 @@ nav {
   border-radius: 100%;
   background-color: #1EACC7;
 }
-.benefits .benefits_wrapper .benefits_item .item_header {
+.benefits_wrapper_item_header {
   font-weight: 400;
   font-size: 17px;
   color: #1EACC7;
 }
-.benefits .benefits_wrapper .benefits_item .item_descr {
+.benefits_wrapper_item_descr {
   font-weight: 300;
   font-size: 15px;
   line-height: 21px;

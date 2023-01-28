@@ -1,3 +1,4 @@
+$main_color: #1EACC7
 *
   font-family: 'Roboto', sans-serif
   font-style: normal
@@ -16,12 +17,12 @@ nav
   margin: 0
   list-style: none
 
-  .menu_link
+  &_link
     font-weight: 300
     font-size: 15px
     color: #FFFFFF
 
-  .menu_item
+  &_item
     border-right: 2px dotted black
     padding-right: 40px
 
@@ -31,26 +32,26 @@ nav
   height: 87px
   background: rgba(0, 0, 0, .6)
 
-  .subheader_logo
+  &_logo
     display: block
     max-width: 100%
     margin-top: 16px
 
-  .subheader_official
+  &_official
     margin-top: 10px
     font-weight: 100
     font-size: 13px
     color: #FFFFFF
     opacity: 0.5
 
-  .subheader_call
+  &_call
     margin-top: 23px
     font-weight: 300
     font-size: 12px
     text-align: right
     color: #FFFFFF
 
-  .subheader_phone
+  &_phone
     display: block
     font-weight: 400
     font-size: 22px
@@ -63,7 +64,7 @@ nav
   margin-top: 23px
   width: 172px
   height: 46px
-  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+  background: linear-gradient(0deg, $main_color 0%, #4CE2FF 100%)
   box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
   border-radius: 4px
   font-style: normal
@@ -79,14 +80,14 @@ nav
   background: url("../img/main_bg.jpg") center center/cover no-repeat
   padding: 160px 0 160px 0
 
-  .promo_header
+  &_header
     font-weight: 900
     font-size: 60px
     text-align: center
     text-transform: uppercase
     color: #FFFFFF
 
-  .promo_subheader
+  &_subheader
     margin-top: 15px
     font-weight: 700
     font-size: 36px
@@ -94,7 +95,7 @@ nav
     text-transform: uppercase
     color: #FFFFFF
 
-  .promo_descr
+  &_descr
     margin-top: 16px
     padding: 0 40px
     font-weight: 300
@@ -103,7 +104,7 @@ nav
     text-align: center
     color: #FFFFFF
 
-  .promo_btn
+  &_btn
     display: block
     margin: 0 auto
     margin-top: 115px
@@ -116,13 +117,13 @@ nav
   background-color: #fff
   padding: 20px 0 0 0
 
-  .benefits_wrapper
+  &_wrapper
     padding: 20px 0 0 0
 
-    .benefits_item
+    &_item
       min-height: 170px
 
-      .benefits_round
+      &_round
         display: flex
         justify-content: center
         align-items: center
@@ -130,14 +131,14 @@ nav
         width: 116px
         height: 116px
         border-radius: 100%
-        background-color: #1EACC7
+        background-color: $main_color
 
-      .item_header
+      &_header
         font-weight: 400
         font-size: 17px
-        color: #1EACC7
+        color: $main_color
 
-      .item_descr
+      &_descr
         font-weight: 300
         font-size: 15px
         line-height: 21px
@@ -248,7 +249,6 @@ nav
     left: 25%
     width: 759px
     height: 480px
-
 
 
 .auto_descr
