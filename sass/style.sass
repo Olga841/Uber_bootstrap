@@ -229,11 +229,13 @@ nav
       height: 29px
       background: #000000
       cursor: pointer
+
       &:before
         content: ''
         width: 14px
         height: 2px
         background-color: $main_color
+
       &:after
         content: ''
         position: absolute
@@ -242,6 +244,11 @@ nav
         width: 2px
         height: 14px
         background-color: $main_color
+
+      &:hover
+        &:before, &:after
+          background-color: $second_color
+          transition: 2s all
 
 
     &_1

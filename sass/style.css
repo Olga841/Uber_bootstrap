@@ -252,6 +252,10 @@ nav {
   height: 14px;
   background-color: #1EACC7;
 }
+.mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
+  background-color: #FF5656;
+  transition: 2s all;
+}
 .mobile_item_1 {
   background: url("../img/card_1.jpg") center center/cover no-repeat;
 }
