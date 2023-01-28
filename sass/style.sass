@@ -220,6 +220,8 @@ nav
       display: flex
       justify-content: center
       align-items: center
+      right: 50%
+      transform: translateX(-50%)
       border-radius: 100%
       margin: 0 auto
       margin-top: 73px
@@ -227,6 +229,20 @@ nav
       height: 29px
       background: #000000
       cursor: pointer
+      &:before
+        content: ''
+        width: 14px
+        height: 2px
+        background-color: $main_color
+      &:after
+        content: ''
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        width: 2px
+        height: 14px
+        background-color: $main_color
+
 
     &_1
       background: url("../img/card_1.jpg") center center/cover no-repeat
