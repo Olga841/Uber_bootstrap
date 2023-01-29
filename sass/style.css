@@ -383,4 +383,77 @@ nav {
   background: url("../img/world_bg.jpg") center center/cover no-repeat;
 }
 
+.footer_container {
+  width: 1876px;
+  margin: 0 auto;
+  min-height: 134px;
+  padding: 11px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_networks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_networks .round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin-right: 6px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+.footer_links {
+  width: 454px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer_links_large {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_links_large .link_large {
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+  text-decoration: none;
+}
+.footer_links_medium {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_links_medium .link_medium {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+  text-decoration: none;
+}
+.footer_links_small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_links_small .link_small {
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #1EACC7;
+  text-decoration: none;
+}
+.footer_stores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
