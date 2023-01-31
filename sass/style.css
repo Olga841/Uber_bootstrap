@@ -463,6 +463,30 @@ nav {
   .menu_item {
     padding-right: 20px;
   }
+  .promo_header {
+    font-size: 40px;
+  }
+  .promo_subheader {
+    font-size: 30px;
+  }
+  .benefits_item {
+    min-height: 210px;
+  }
+  .mobile_item {
+    width: 290px;
+  }
+  .auto_descr {
+    min-height: 400px;
+  }
+  .link_large {
+    font-size: 13px;
+  }
+  .link_medium {
+    font-size: 10px;
+  }
+  .link_small {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
