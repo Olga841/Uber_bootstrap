@@ -548,6 +548,19 @@ nav {
     font-size: 14px;
     line-height: 16px;
   }
+  .mobile_item {
+    width: 200px;
+    height: 200px;
+    padding: 40px 5px 0 5px;
+  }
+  .mobile_item_subtitle {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .mobile_item_plus {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
