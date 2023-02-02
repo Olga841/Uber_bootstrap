@@ -599,6 +599,10 @@ nav {
   .auto_descr {
     min-height: 300px;
   }
+  .footer_container {
+    min-height: 160px;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
