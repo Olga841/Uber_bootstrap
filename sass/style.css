@@ -587,6 +587,18 @@ nav {
   .benefits .benefits_item .item_descr {
     padding-bottom: 15px;
   }
+  .auto {
+    min-height: 450px;
+  }
+  .auto_img {
+    left: 5%;
+    top: 225px;
+    width: 90%;
+    height: 90%;
+  }
+  .auto_descr {
+    min-height: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
