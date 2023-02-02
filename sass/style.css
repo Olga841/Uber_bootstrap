@@ -581,6 +581,12 @@ nav {
   .title {
     font-size: 20px;
   }
+  .benefits .benefits_item .item_header {
+    padding: 15px 0 5px 10px;
+  }
+  .benefits .benefits_item .item_descr {
+    padding-bottom: 15px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
