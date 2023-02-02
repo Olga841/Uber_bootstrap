@@ -561,6 +561,9 @@ nav {
     margin: 0 auto;
     margin-top: 50px;
   }
+  .auto_img {
+    left: 15%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
