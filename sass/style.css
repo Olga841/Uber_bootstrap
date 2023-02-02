@@ -509,6 +509,22 @@ nav {
     height: 40px;
     font-size: 12px;
   }
+  .promo {
+    min-height: 510px;
+    padding: 110px;
+    padding-bottom: 80px;
+  }
+  .promo_subheader {
+    font-size: 25px;
+  }
+  .promo_descr {
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .promo_btn {
+    margin-top: 40px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
