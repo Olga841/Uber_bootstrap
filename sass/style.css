@@ -572,6 +572,12 @@ nav {
   .subheader_official {
     margin-top: 3px;
   }
+  .promo_header {
+    font-size: 28px;
+  }
+  .promo_subheader {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
