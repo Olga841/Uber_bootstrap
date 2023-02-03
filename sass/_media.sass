@@ -109,6 +109,8 @@
 @media (max-width: 768px)
   .menu
     position: fixed
+    justify-content: center
+    align-items: center
     top: 0
     right: 0
     width: 50%
@@ -116,8 +118,14 @@
     flex-direction: column
     background-color: rgba(0, 0, 0, 0.8)
 
+    &_item
+      padding-right: 0
+      border: none
+      margin: 10px 0
+
     &_link
-      padding: 10px 15px
+      font-size: 18px
+      text-decoration: none
 
   .subheader
     &_official

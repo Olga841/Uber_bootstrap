@@ -568,6 +568,8 @@ nav {
 @media (max-width: 768px) {
   .menu {
     position: fixed;
+    justify-content: center;
+    align-items: center;
     top: 0;
     right: 0;
     width: 50%;
@@ -575,8 +577,14 @@ nav {
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8);
   }
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px 0;
+  }
   .menu_link {
-    padding: 10px 15px;
+    font-size: 18px;
+    text-decoration: none;
   }
   .subheader_official {
     margin-top: 3px;
