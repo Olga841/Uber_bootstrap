@@ -30,7 +30,7 @@
     &_small
       font-size: 10px
 
-@media (max-width: 991px)
+@media (max-width: 992px)
   .menu
     &_link
       font-size: 9px
@@ -104,23 +104,26 @@
 
   .auto
     &_img
-      left: 15%
+      left: 5%
 
-@media (max-width: 768px)
+@media (max-width: 767px)
   .menu
     display: none
-    position: fixed
+    position: absolute
+    z-index: 1
     justify-content: center
     align-items: center
     top: 0
-    right: 0
+    left: 0
     width: 50%
     height: 100vh
     flex-direction: column
-    background-color: rgba(0, 0, 0, 0.8)
+    background-color: rgba(0, 0, 0, 0.9)
+    transition: 0.8s all
+
     &_active
       display: flex
-      transition: 0.6s all
+
 
     &_item
       padding-right: 0
@@ -145,7 +148,7 @@
       height: 2px
       background-color: #fcf8e3
       margin-bottom: 3px
-      transition: 1s all
+      transition: 0.5s all
 
     &_active
       span
@@ -162,8 +165,22 @@
 
 
   .subheader
+    &_btn
+      display: block
+      margin: 0 auto
+
     &_official
       margin-top: 3px
+      display: none
+
+    &_phone
+      &_hidden
+        display: none
+
+      &_display
+        display: block
+        padding: 0 20px
+
 
   .promo
     &_header
