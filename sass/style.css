@@ -38,6 +38,7 @@ nav {
   width: 100%;
   height: 87px;
   background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
 }
 .subheader_logo {
   display: block;
@@ -85,6 +86,9 @@ nav {
 .subheader_btn:hover {
   background-image: none;
   background-color: #1EACC7;
+}
+.subheader_phone_display {
+  display: none;
 }
 
 .hamburger {
@@ -493,7 +497,7 @@ nav {
     font-size: 10px;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .menu_link {
     font-size: 9px;
   }
@@ -567,25 +571,26 @@ nav {
     margin-top: 50px;
   }
   .auto_img {
-    left: 15%;
+    left: 5%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .menu {
     display: none;
-    position: fixed;
+    position: absolute;
+    z-index: 1;
     justify-content: center;
     align-items: center;
     top: 0;
-    right: 0;
+    left: 0;
     width: 50%;
     height: 100vh;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.8s all;
   }
   .menu_active {
     display: flex;
-    transition: 0.6s all;
   }
   .menu_item {
     padding-right: 0;
@@ -610,7 +615,7 @@ nav {
     height: 2px;
     background-color: #fcf8e3;
     margin-bottom: 3px;
-    transition: 1s all;
+    transition: 0.5s all;
   }
   .hamburger_active span {
     margin-bottom: -3px;
@@ -624,8 +629,20 @@ nav {
   .hamburger_active span:nth-child(3) {
     transform: rotate(45deg);
   }
+  .subheader_btn {
+    display: block;
+    margin: 0 auto;
+  }
   .subheader_official {
     margin-top: 3px;
+    display: none;
+  }
+  .subheader_phone_hidden {
+    display: none;
+  }
+  .subheader_phone_display {
+    display: block;
+    padding: 0 20px;
   }
   .promo_header {
     font-size: 28px;
