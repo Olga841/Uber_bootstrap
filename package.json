@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "browser-sync": "^2.27.11",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0"
   }
 }
