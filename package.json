@@ -20,6 +20,7 @@
     "gulp-cli": "^2.3.0"
   },
   "dependencies": {
+    "browser-sync": "^2.27.11",
     "gulp-sass": "^5.1.0"
   }
 }
