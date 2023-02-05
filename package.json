@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Olga841/Uber_bootstrap/issues"
   },
-  "homepage": "https://github.com/Olga841/Uber_bootstrap#readme"
+  "homepage": "https://github.com/Olga841/Uber_bootstrap#readme",
+  "devDependencies": {
+    "gulp-cli": "^2.3.0"
+  }
 }
